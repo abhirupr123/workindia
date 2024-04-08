@@ -30,3 +30,12 @@ In addition to the already mentioned API endpoints, the `app.js` file contains t
 
 - `getStats` - To fetch the stats of a particular player ID.
 - `addPlayer` - Admin function handler which is used to add a particular player to the team.
+
+# Tables 
+The `database.sql` provides the schemas of the different tables considered in this project. The description of the tables are given below - 
+
+- `admin` - Table used to stre and fetch new and existing admins
+- `teams`- Table to store and fetch new and existing teams
+- `player` - Table to store and fetch new and existing players
+- `matches` - Table to store and fetch new and existing matches
+- `player_stats` - Table to store the individual statistics of each player
